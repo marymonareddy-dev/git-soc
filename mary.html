@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mary Mona Reddy Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background: #f8f9fa;
+      color: #333;
+    }
+
+    header {
+      background-color: #6a1b9a;
+      color: white;
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.5rem;
+      margin-top: 0;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 20px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.1rem;
+    }
+
+    section {
+      padding: 2.5rem 1rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #6a1b9a;
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .project, .skill {
+      background: white;
+      margin: 1rem 0;
+      padding: 1.25rem;
+      border-radius: 8px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    }
+
+    .about {
+      background: white;
+      padding: 2rem;
+      border-radius: 8px;
+      text-align: center;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+      font-size: 1.1rem;
+    }
+
+    form input, form textarea, form button {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+
+    form button {
+      background: #6a1b9a;
+      color: white;
+      border: none;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    form button:hover {
+      background: #4a148c;
+    }
+
+    footer {
+      background: #6a1b9a;
+      color: white;
+      text-align: center;
+      padding: 1.2rem 0;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Mary Mona Reddy</h1>
+    <p>Full Stack Developer</p>
+    <nav>
+      <a href="#work">My Work</a>
+      <a href="#expertise">Technical Expertise</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="work">
+    <h2>My Work</h2>
+    <div class="project">
+      <h3>Expense Tracker</h3>
+      <p>A web application to manage and visualize your personal expenses in a user-friendly dashboard.</p>
+    </div>
+    <div class="project">
+      <h3>Chat Application</h3>
+      <p>Real-time chat app built with Node.js and Socket.io, supporting private and group messaging.</p>
+    </div>
+    <div class="project">
+      <h3>Blog Platform</h3>
+      <p>A scalable blogging platform built with MongoDB, Express, and React for writers and readers.</p>
+    </div>
+  </section>
+
+  <section id="expertise">
+    <h2>Technical Expertise</h2>
+    <div class="skill">HTML5, CSS3, JavaScript (ES6+)</div>
+    <div class="skill">React.js, Node.js, Express.js</div>
+    <div class="skill">MongoDB, Git & GitHub</div>
+    <div class="skill">RESTful APIs, Responsive Web Design</div>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="about">
+      <p>Hello! I'm Mary Mona Reddy, a creative and detail-oriented full-stack developer. I enjoy designing interactive, scalable, and secure web applications. With a passion for clean code and modern technologies, I love solving real-world problems through software.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 Mary Mona Reddy. All rights reserved.
+  </footer>
+
+</body>
+</html>
